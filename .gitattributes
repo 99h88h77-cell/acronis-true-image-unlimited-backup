@@ -1,0 +1,10 @@
+# Default behavior
+# Normalize line endings
+src/** linguist-detectable
+*.png binary 
+*.sh text eol=lf
+*.map linguist-generated
+*.htm linguist-vendored
+*.yaml linguist-detectable=false
+package-lock.json linguist-generated
+*.gif binary
